@@ -24,7 +24,7 @@ spec:
         kubernetes.io/os: linux
       containers:
       - name: hello-azure
-        image: harnessdemoapps.azurecr.io/demoapps/java_web_app_maven:v2
+        image: harnessdemoapps.azurecr.io/demoapps/java_web_app_maven:v4
         env:
         - name: PORT
           value: '80'
