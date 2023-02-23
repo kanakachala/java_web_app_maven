@@ -49,6 +49,7 @@ metadata:
   name: hello-azure
   namespace: helloworld-ng
 spec:
+  type: LoadBalancer
   ports:
   - port: 8080
   selector:
